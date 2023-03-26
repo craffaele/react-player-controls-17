@@ -7,7 +7,7 @@ const padZero = digit =>
   `${digit < 10 ? '0' : ''}${digit}`
 
 /**
- * Time formatter that turns seconds into h:mm:ss
+ * Time formatter that turns seconds into h:mm:ss //
  */
 class FormattedTime extends Component {
   static propTypes = {

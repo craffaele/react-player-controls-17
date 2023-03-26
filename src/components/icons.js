@@ -1,6 +1,6 @@
 import React from 'react'
 
-/**
+/** //
  * Play
  */
 export const Play = (props) =>
