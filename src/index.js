@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Button from './components/Button.js'
 
 import PlaybackControls from './components/PlaybackControls.js'
@@ -39,6 +40,11 @@ export {
   MuteToggleButton,
 
   VolumeSlider,
+=======
+import FormattedTime from './components/FormattedTime.js'
+import * as PlayerIcon from './components/icons.js'
+import Slider from './components/Slider.js'
+>>>>>>> c1473cdf748dcf2489ea1d1eff077def935d7e17
 
-  ControlDirection,
-}
+export { Direction } from './constants.js'
+export { FormattedTime, PlayerIcon, Slider }
