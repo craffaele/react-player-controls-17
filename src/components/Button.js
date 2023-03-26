@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import autobind from 'autobind-decorator'
 
 /**
- * Base button component
+ * Base button component //
  */
 class Button extends Component {
   static propTypes = {

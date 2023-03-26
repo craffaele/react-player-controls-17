@@ -9,7 +9,7 @@ import FormattedTime from './FormattedTime.js'
 const { number, oneOf, string, object } = PropTypes
 
 /**
- * Time marker types
+ * Time marker types //
  */
 export const TimeMarkerType = {
   ELAPSED: 'ELAPSED',
@@ -22,7 +22,6 @@ export const TimeMarkerType = {
  * Composite component showing current and total time
  */
 class TimeMarker extends Component {
-
   static propTypes = {
     totalTime: number,
     currentTime: number,

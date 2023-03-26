@@ -4,7 +4,7 @@ import Button from './Button.js'
 import { PreviousIcon } from './icons.js'
 
 /**
- * Previous button
+ * Previous button //
  */
 class PrevButton extends Button {
   static defaultProps = {

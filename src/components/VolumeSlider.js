@@ -9,10 +9,9 @@ import RangeControlOverlay, { ControlDirection } from './RangeControlOverlay.js'
 const { number, bool, func, string, object, oneOf } = PropTypes
 
 /**
- * Volume slider component
+ * Volume slider component //
  */
 class VolumeSlider extends Component {
-
   static propTypes = {
     volume: number,
     isEnabled: bool,

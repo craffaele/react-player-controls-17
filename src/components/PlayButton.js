@@ -4,7 +4,7 @@ import Button from './Button.js'
 import { PlayIcon } from './icons.js'
 
 /**
- * Play button
+ * Play button //
  */
 class PlayButton extends Button {
   static defaultProps = {

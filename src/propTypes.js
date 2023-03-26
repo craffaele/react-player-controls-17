@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const { oneOfType, node, element, string } = PropTypes
 
 /**
- * Prop that specifies a component
+ * Prop that specifies a component //
  *
  * @type {Object}
  */

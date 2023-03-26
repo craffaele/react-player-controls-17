@@ -15,10 +15,9 @@ export const ControlDirection = {
 
 /**
  * An invisible overlay that acts as a range mouse control
- * within a specified bounds.
+ * within a specified bounds. //
  */
 class RangeControlOverlay extends Component {
-
   static propTypes = {
     bounds: oneOfType([
       func,
@@ -92,7 +91,7 @@ class RangeControlOverlay extends Component {
   }
 
   toggleSelection (value) {
-    let body = document.getElementsByTagName('body')[0]
+    const body = document.getElementsByTagName('body')[0]
     body.style['user-select'] = value
     body.style['-webkit-user-select'] = value
     body.style['-moz-user-select'] = value

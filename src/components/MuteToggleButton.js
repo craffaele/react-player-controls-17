@@ -8,7 +8,7 @@ import SoundOnButton from './SoundOnButton.js'
 import SoundOffButton from './SoundOffButton.js'
 
 /**
- * Mute toggle button
+ * Mute toggle button //
  */
 class MuteToggleButton extends Component {
   static propTypes = {

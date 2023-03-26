@@ -1,5 +1,3 @@
-export * from './components/icons.js'
-
 import Button from './components/Button.js'
 
 import PlaybackControls from './components/PlaybackControls.js'
@@ -19,6 +17,8 @@ import MuteToggleButton from './components/MuteToggleButton.js'
 import VolumeSlider from './components/VolumeSlider.js'
 
 import { ControlDirection } from './components/RangeControlOverlay'
+
+export * from './components/icons.js'
 
 export {
   Button,

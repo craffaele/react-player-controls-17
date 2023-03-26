@@ -14,7 +14,7 @@ const { bool, func, object } = PropTypes
 const noop = () => {}
 
 /**
- * Play and pause controls
+ * Play and pause controls //
  */
 class PlaybackControls extends Component {
   static propTypes = {
@@ -78,16 +78,16 @@ class PlaybackControls extends Component {
 
         { isPlaying && isPlayable
           ? <PauseButton
-              onClick={this.handlePause}
-              className={childClasses.PauseButton}
-              style={childrenStyles.PauseButton}
-            />
+            onClick={this.handlePause}
+            className={childClasses.PauseButton}
+            style={childrenStyles.PauseButton}
+          />
           : <PlayButton
-              isEnabled={isPlayable}
-              onClick={this.handlePlay}
-              className={childClasses.PlayButton}
-              style={childrenStyles.PlayButton}
-            />
+            isEnabled={isPlayable}
+            onClick={this.handlePlay}
+            className={childClasses.PlayButton}
+            style={childrenStyles.PlayButton}
+          />
         }
 
         { showNext && (

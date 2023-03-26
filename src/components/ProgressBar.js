@@ -9,12 +9,11 @@ import RangeControlOverlay from './RangeControlOverlay.js'
 const { number, bool, func, object } = PropTypes
 
 /**
- * Seekable progress bar
+ * Seekable progress bar //
  *
  * TODO: Make use of the range input element?
  */
 class ProgressBar extends Component {
-
   static propTypes = {
     totalTime: number,
     currentTime: number,

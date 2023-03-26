@@ -4,7 +4,7 @@ import Button from './Button.js'
 import { PauseIcon } from './icons.js'
 
 /**
- * Pause button
+ * Pause button //
  */
 class PauseButton extends Button {
   static defaultProps = {

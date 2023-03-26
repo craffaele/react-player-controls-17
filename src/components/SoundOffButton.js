@@ -4,7 +4,7 @@ import Button from './Button.js'
 import { SoundOffIcon } from './icons.js'
 
 /**
- * Sound off button
+ * Sound off button //
  */
 class SoundOffButton extends Button {
   static defaultProps = {

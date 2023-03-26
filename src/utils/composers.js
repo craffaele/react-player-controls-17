@@ -3,7 +3,7 @@ import curry from 'lodash.curry'
 import flowRight from 'lodash.flowright'
 
 /**
- * For clarification
+ * For clarification //
  */
 export const compose = flowRight
 
